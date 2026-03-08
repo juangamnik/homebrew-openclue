@@ -1,0 +1,31 @@
+# macOS / OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local temp / test folders
+tmp/
+.tmp/
+.cache/
+test-output/
+artifacts/
+
+# Build / distribution outputs (must not be committed here)
+dist/
+build/
+release/
+out/
+
+# Binary release files
+*.zip
+*.tar.gz
+*.deb
+*.rpm
+checksums.txt
