@@ -1,5 +1,11 @@
 # OpenClue Homebrew Tap
 
+> [!WARNING]
+> OpenClue is currently in experimental mode.
+> It is not suitable for production use.
+> Use at your own risk.
+> Please read `RISK_NOTICE.txt` included in the respective release bundles before use.
+
 <p align="center">
 	<img src="assets/oclue_logo.png" alt="OpenClue Logo" width="420" />
 </p>
