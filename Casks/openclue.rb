@@ -14,7 +14,7 @@ cask "openclue" do
   name "openclue"
   desc "OpenClue accelerates terminal workflows with deterministic, policy-first AI execution."
   homepage "https://openclue.ai"
-  version "0.2.2"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -27,12 +27,12 @@ cask "openclue" do
     on_intel do
       url "https://github.com/juangamnik/homebrew-openclue/releases/download/v#{version}/openclue_#{version}_darwin_amd64.zip",
         verified: "github.com/juangamnik/homebrew-openclue/"
-      sha256 "0a2ed4e274fe0a2807db5475c4e265f9fc1b0bf1ffb59343b6714eab345dbfdc"
+      sha256 "ce98b4f490143804961d56e97db0aea1515e64763326b0dae5222a07f9f19b40"
     end
     on_arm do
       url "https://github.com/juangamnik/homebrew-openclue/releases/download/v#{version}/openclue_#{version}_darwin_arm64.zip",
         verified: "github.com/juangamnik/homebrew-openclue/"
-      sha256 "27edaca5e9db10c8d8bfb3002f3bb3263f6466bc73a014f2f06a95cd5fc7a075"
+      sha256 "82960f4ac309b420bef2cb1ffbaa42b4d6a486c0f677c4fc93d4d5144d0e0571"
     end
   end
 
